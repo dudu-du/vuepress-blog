@@ -1,0 +1,28 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "我的博客",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudu-du/vuepress-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudu-du/vuepress-blog/issues"
+  },
+  "homepage": "https://github.com/dudu-du/vuepress-blog#readme",
+  "devDependencies": {
+    "vuepress-plugin-mermaidjs": "^2.0.0-beta.2"
+  }
+}
